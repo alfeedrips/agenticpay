@@ -9,7 +9,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc -p tsconfig.json",
+    "build": "node init && tsc -p tsconfig.json",
     "clean": "rimraf dist",
     "docs": "typedoc --options typedoc.json",
     "test": "vitest run --passWithNoTests",

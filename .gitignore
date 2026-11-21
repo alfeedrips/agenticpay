@@ -2,7 +2,6 @@
 node_modules/
 
 # Environment
-.env*
 
 # OS
 .DS_Store
@@ -12,7 +11,6 @@ ehthumbs.db
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 
@@ -70,3 +68,4 @@ PR_DESCRIPTION.md
 *.snap
 test/__snapshots__/
 **/*.snap
+config.bat

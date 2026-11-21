@@ -4,7 +4,7 @@
   "description": "Local development structured log viewer with WebSocket streaming",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "lint": "echo 'No lint yet'"
   },
   "dependencies": {},

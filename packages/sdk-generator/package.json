@@ -12,7 +12,7 @@
     "templates"
   ],
   "scripts": {
-    "build": "tsc -p tsconfig.json",
+    "build": "node init && tsc -p tsconfig.json",
     "clean": "rimraf dist",
     "generate:all": "node dist/cli.js --config openapi.config.json",
     "generate:typescript": "node dist/cli.js --lang typescript --config openapi.config.json",

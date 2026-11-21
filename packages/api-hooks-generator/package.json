@@ -7,7 +7,7 @@
     "generate-api-hooks": "./dist/cli.js"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "lint": "echo 'No lint yet'",
     "generate": "node dist/cli.js",
     "generate:watch": "node dist/cli.js --watch"
